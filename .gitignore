@@ -1,0 +1,26 @@
+# Environment dan file rahasia
+.env
+.env.*
+!.env.example
+
+# Dependencies Composer
+/vendor/
+/vendor_backup/
+
+
+# Log
+*.log
+
+# Editor
+.vscode/
+.idea/
+
+# File sistem
+.DS_Store
+Thumbs.db
+
+# Database credentials
+mahasiswa/databasekey.php
+
+# Groq API key
+mahasiswa/groq_config.php
